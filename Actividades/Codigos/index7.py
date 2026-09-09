@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-imagen = r"C:\Test\py\Muestra.png"
+imagen = r"\Muestra.png"
 
 def gris_amarillo():
     pixel = np.array([0,255,255])

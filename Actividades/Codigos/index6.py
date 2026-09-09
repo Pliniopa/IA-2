@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-imagen = cv2.imread(r"C:\Test\py\Muestra.png")
+imagen = cv2.imread(r"\Muestra.png")
 
 canal_azul = imagen[:, :, 0]
 canal_verde = imagen[:, :, 1]

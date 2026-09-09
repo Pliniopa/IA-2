@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-imagen = r"C:\Test\py\Muestra.png"
+imagen = r"\Muestra.png"
 imagen_c = cv2.imread(imagen, cv2.IMREAD_GRAYSCALE)
 
 histograma = cv2.calcHist([imagen_c], [0], None, [256], [0, 256])

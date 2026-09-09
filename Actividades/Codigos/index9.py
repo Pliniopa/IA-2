@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Cargar imagen en color (BGR)
-imagen = cv2.imread(r"C:\Test\py\Muestra.png")
+imagen = cv2.imread(r"\Muestra.png")
 
 if imagen is None:
     print("No se pudo cargar la imagen")
