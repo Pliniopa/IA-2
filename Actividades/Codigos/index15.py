@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-imagen = r"celula-prueba.jpg"
+imagen = r"./Actividades/Codigos/celula-prueba.jpg"
 
 imagen_p = cv2.imread(imagen)
 
