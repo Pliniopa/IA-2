@@ -1,0 +1,7 @@
+python -m venv .venv                                                                            para crear un entorno de python
+
+source .venv/bin/activate                                                                       Lanzamiento del entorno creado
+
+pip freeze | findstr /I "scikit-learn numpy matplotlib opencv-python" > requirements.txt        Para generar requeriments.txt
+
+pip install -r requirements.txt                                                                 para instalar las librerias que actualmente se ejecutan
