@@ -16,6 +16,8 @@ b1 = np.array([0.1, -0.2, 0.3, -0.4])
 Z1 = np.dot(X, W1) + b1
 A1 = sigmoide(Z1)
 
+print ("Z1: ", Z1, "\nA1: ", A1)
+
 W2 = np.array([0.5, -0.6, 0.7, 0.8])
 b2 = np.array([-0.1])
 
